@@ -1,4 +1,4 @@
-# Add files to Tresorit
+# Add files to Tresorit for Gmail
 Opens https://send.tresorit.com
 
 Here's what the script does:
