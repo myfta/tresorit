@@ -23,7 +23,7 @@ Install the Tampermonkey extension for Chrome
 
 Click the Tampermonkey icon → "Create a new script"
 
-Copy the entire content from user.js
+Copy the entire content from tresorit.user.js
 
 Save the script
 
