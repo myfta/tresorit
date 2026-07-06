@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tresorit Send Button for Gmail
 // @namespace    http://tampermonkey.net/
-// @version      2.1
+// @version      2.2
 // @description  Adds a small button to Gmail to open Tresorit Send in a new popup tab
 // @author       myfta
 // @match        https://mail.google.com/*
@@ -33,7 +33,7 @@
         const button = document.createElement('button');
         button.id = 'tresorit-send-button';
         button.title = 'Open Tresorit Send';
-        button.innerHTML = '📤';
+        button.textContent = '📤';
         
         // Style the button to be small and visible
         button.style.cssText = `
